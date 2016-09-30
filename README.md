@@ -21,7 +21,7 @@ Algoritmi koristeni za rjesavanje sva tri slucaja mogu se pronaci na: http://mat
 ___
 
 
-> **Rant**
+> **Rant!!**
 >
 ovaj program je nastao kako bi se pokazalo ljudima dvije stvari a to su:
  - da magicni kvadrat moze imati i paran broj celija u stranicama a ne samo 3x3, 19x19.. i da se svejedno moze rjesiti
