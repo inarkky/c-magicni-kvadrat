@@ -5,7 +5,7 @@ typedef enum { false, true } bool;
 
 
 /**
- * popunjava matricu s nulama
+ * inicijalizira matricu
  *
  * @param M matrica
  * @param N dimenzije matrice
