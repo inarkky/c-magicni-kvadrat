@@ -10,9 +10,9 @@ Ukoliko korisnik nema pojma koliki bi kvadrat htio generirati, program mu nudi o
 Nakon izvrsenja korisniku je dana opcija da se nastavi igrati dalje ako to zeli. 
 Nacin rjesavanja magicnih kvadrata ovisi o njegovim dimenzijama:
 
- 1. nacin - stranice su neparne (3x3, 5x5, 17x17..) (**odd order**)
- 2. nacin - stranice su parne, ali **nisu** djeljive s 4 (6x6, 10x10, 14x14..) (**even order**)
- 3. nacin - stranice su parne i djeljive su s 4 (4x4, 8x8, 12x12..) (**doubly even order**)
+ 1. slucaj - stranice su neparne (3x3, 5x5, 17x17..) (**odd order**)
+ 2. slucaj - stranice su parne, ali **nisu** djeljive s 4 (6x6, 10x10, 14x14..) (**even order**)
+ 3. slucaj - stranice su parne i djeljive su s 4 (4x4, 8x8, 12x12..) (**doubly even order**)
 
 Algoritmi koristeni za rjesavanje sva tri slucaja mogu se pronaci na: http://mathworld.wolfram.com/MagicSquare.html 
 
