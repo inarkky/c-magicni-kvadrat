@@ -44,22 +44,22 @@ void ispis(int M[][MAX], int N){
  *
  */
 void doL(int M[][MAX], int i, int j, int br){
-    M[i][j]=br;
-    M[i+1][j-1]=br+1;
-    M[i+1][j]=br+2;
-    M[i][j-1] = br+3;
+    M [i]   [j]   =br;
+    M [i+1] [j-1] =br+1;
+    M [i+1] [j]   =br+2;
+    M [i]   [j-1] =br+3;
 }
 void doU(int M[][MAX], int i, int j, int br){
-    M[i][j-1]=br;
-    M[i+1][j-1]=br+1;
-    M[i+1][j]=br+2;
-    M[i][j]=br+3;
+    M [i]   [j-1] =br;
+    M [i+1] [j-1] =br+1;
+    M [i+1] [j]   =br+2;
+    M [i]   [j]   =br+3;
 }
 void doX(int M[][MAX], int i, int j, int br){
-    M[i][j-1]=br;
-    M[i+1][j]=br+1;
-    M[i+1][j-1]=br+2;
-    M[i][j]=br+3;
+    M [i]   [j-1] =br;
+    M [i+1] [j]   =br+1;
+    M [i+1] [j-1] =br+2;
+    M [i]   [j]   =br+3;
 }
 
 
