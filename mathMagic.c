@@ -249,7 +249,7 @@ int main(){
 
 
         if (strcmp(mod, "ajdeti") == 0){
-            size = rand() % 15 + 3;     //nasumicno odredivanje 'donekle normalnih' dimenzija 
+            size = rand() % 15 + 3;     //nasumicno izvlacenje dimenzija (ne prevelik interval) 
             printf("** Uzivajte u ovom prekrasnom kvadratu dimenzija %dx%d\n\n", size, size);
         }else{
             size = atoi(mod);
