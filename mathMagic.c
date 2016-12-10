@@ -248,8 +248,8 @@ int main(){
         printf("\n");
 
 
-        if (strcmp(mod, "ajdeti") == 0){ // pribjeravamo je li to taj string ukucan
-            size = rand() % 15 + 3; // neki random broj izmedu 3 i 15
+        if (strcmp(mod, "ajdeti") == 0){
+            size = rand() % 15 + 3;     //nasumicno odredivanje 'donekle normalnih' dimenzija 
             printf("** Uzivajte u ovom prekrasnom kvadratu dimenzija %dx%d\n\n", size, size);
         }else{
             size = atoi(mod);
